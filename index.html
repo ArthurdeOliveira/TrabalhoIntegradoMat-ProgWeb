@@ -1,70 +1,183 @@
 <!DOCTYPE html>
-<!--=== Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta data-name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!----======== CSS ======== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitinhas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    
-    <!--===== Boxicons CSS =====-->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-
-    <title>Menuzin da Rosca</title> 
 </head>
+
 <body>
-    <div class="container">
-        <div class="search-box">
-            <i class="bx bx-search"></i>
-            <input type="text" placeholder="Procure uma receita">
-        </div>
+<header>
+    <a href="index.html" class="logo"><i class="fas fa-coffee"></i>Receitinhas</a>
 
-        <div class="images">
-            <div class="image-box" data-name="spiderman">
-                <img src="img/spiderman.jpg" alt="">
-                <h6>spiderman</h6>
-            </div>
-            <div class="image-box" data-name="joker">
-                <img src="img/joker.jpg" alt="">
-                <h6>joker</h6>
-            </div>
-            <div class="image-box" data-name="ironman">
-                <img src="img/ironman.jpg" alt="">
-                <h6>ironman</h6>
-            </div>
-            <div class="image-box" data-name="passenger">
-                <img src="img/passenger.jpg" alt="">
-                <h6>passenger</h6>
-            </div>
-            <div class="image-box" data-name="space">
-                <img src="img/space.jpg" alt="">
-                <h6>the space</h6>
-            </div>
-            <div class="image-box" data-name="spiderman">
-                <img src="img/spiderman2.jpg" alt="">
-                <h6>spiderman 2</h6>
-            </div>
-            <div class="image-box" data-name="universe">
-                <img src="img/universe.jpg" alt="">
-                <h6>the universe</h6>
-            </div>
-            <div class="image-box" data-name="spiderman">
-                <img src="img/spiderman3.jpg" alt="">
-                <h6>spiderman 3</h6>
-            </div>
-            <div class="image-box" data-name="holiday">
-                <img src="img/holiday.jpg" alt="">
-                <h6>holiday</h6>
-            </div>
-            <div class="image-box" data-name="ironman">
-                <img src="img/ironman2.jpg" alt="">
-                <h6>ironman 2</h6>
-            </div>
+    <div id="menu-bar" class="fas fa-bars"></div>
 
-        </div>
+    <nav class="navbar">
+        <a href="#about">Sobre</a>
+        <a href="#popular">Receitas</a>
+        <a href="#contact">Contato</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h1>Receitinhas</h1>
+        <hr>
+        <h3>RECEITAS DINÂMICAS</h3>
+        <p>Receitas personalizadas para quantidades dinâmicas feitas com programação e matemática</p>
+        <a href="#popular" class="btn">Vamos lá</a>
     </div>
-    <script src="script.js"></script>
+</section>
+
+<section class="popular" id="popular">
+    
+    <h1 class="heading"> <span>RECEITAS</span> </h1>
+
+    <div class="box-container">
+
+        <!--RECEITA 1-->
+        <div class="box">
+            <img src="img/pudim.png" alt="">
+            <h3>Pudim</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="pgcaseiro.html" class="btn">Ver Receita</a>
+        </div>
+
+        <!--RECEITA 2-->
+        <div class="box">
+            <img src="img/geleia.png" alt="">
+            <h3>Geleia de morango</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="pgitaliano.html" class="btn">Ver Receita</a>
+        </div>
+
+        <!--RECEITA 3-->
+        <div class="box">
+            <img src="img/chocolateQuente.png" alt="">
+            <h3>Chocolate Quente</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="ChocolateHot.php" class="btn">Ver Receita</a>
+        </div>
+
+        <!--RECEITA 4-->
+        <div class="box">
+            <img src="img/crepe.png" alt="">
+            <h3>Crepe de Brownie</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="pgextraforte.html" class="btn">Ver Receita</a>
+        </div>
+
+        <!--RECEITA 5-->
+        <div class="box">
+            <img src="img/brownies.png" alt="">
+            <h3>Brownie</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="pgfrapuccino.html" class="btn">Ver Receita</a>
+        </div>
+
+        <!--RECEITA 6-->
+        <div class="box">
+            <img src="img/bolofofo.png" alt="">
+            <h3>Bolo Fofo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="" class="btn">Ver Receita</a>
+        </div>    
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> Entre em <span>Contato</span></h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="img/bake.gif" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="Digite seu email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="Digite seu telefone">
+                
+            </div>
+
+            <textarea placeholder="Digite sua mensagem" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Enviar mensagem" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://pt-br.facebook.com/receitinhas/" class="btn">Facebook</a>
+        <a href="https://twitter.com/search?q=receitinhas&src=typed_query" class="btn">Twitter</a>
+        <a href="https://www.instagram.com/explore/tags/receitinhas/" class="btn">Instagram</a>
+    </div>
+
+    <h1 class="credit"> Desenvolvido por<span> Arthur de Oliveira, Isadora Munari, Gustavo Martins, Nicolas Danone, Pedro Ferri e Rodriggo Michelsen </span> | Todos os direitos reservados! </h1>
+
+</section>
+
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- <div class="loader-container">
+    <img src="img/load2.gif" alt="">
+</div>  -->
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
